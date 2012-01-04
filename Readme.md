@@ -63,6 +63,18 @@ result = word.pluralize 2, 'dog' # pluralize or not, depends on supplied count.
 
 ```
 
+Want to use it as helper in your express app? Sure.
+
+```javascript
+
+var express = require('express');
+var word = require('word');
+var app = express.createServer();
+
+app.helpers({ word: word });
+
+```
+
 ## Requirements
 
 - NPM (http://npmjs.org/)
