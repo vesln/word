@@ -46,6 +46,7 @@ result = word.random 5 # returns random string with length of 5
 result = word.repeat 'foo', 3 # repeats n times a string
 
 result = word.censor 'foo', 'foo', '***' # censors bad words.
+
 result = word.censor 'foo bar baz', ['foo', 'bar'], '***'
 
 result = word.stripLinks 'baz <a href="http://example.com" class="foobar">Foo</a>' # strips links
