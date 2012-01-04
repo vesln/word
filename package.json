@@ -1,0 +1,27 @@
+{
+    "name": "word"
+  , "version": "0.0.1"
+  , "description": "Contains functions that assist in working with strings."
+  , "keywords": ["string helper", "text helper", "string", "text"]
+  , "author": "Veselin Todorov <hi@vesln.com>"
+  , "dependencies": {
+	  "package": "1.0.0"
+	, "coffee-script": "1.2.0"
+	, "lingo": "0.0.4"
+	, "super": "0.0.1"
+  }
+  , "devDependencies": {
+      "mocha": "0.3.3"
+    , "should": "0.3.2"
+  }
+  , "repository" : {
+      "type" : "git",
+      "url" : "http://github.com/vesln/word.git"
+  }
+  , "homepage": "http://github.com/vesln/word"
+  , "scripts": {
+      "test": "make test"
+  }
+  , "main": "index"
+  , "engines": { "node": ">= 0.6.0 < 0.7.0" }
+}
