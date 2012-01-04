@@ -88,3 +88,7 @@ describe 'word', ->
 	describe 'capitalize', ->
 		it 'should capitalize the first word of str', ->
 			word.capitalize('foo bar').should.eql 'Foo bar'
+			
+	describe 'slug', ->
+		it 'should slugify string', ->
+			word.slug('foo bar').should.eql 'foo-bar'

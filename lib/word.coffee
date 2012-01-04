@@ -7,6 +7,7 @@
 package = require('package')(module)
 lingo = require 'lingo'
 extend = require 'super'
+slug = require 'slug'
 en = lingo.en
 
 # The main namespace
@@ -97,6 +98,10 @@ word.pluralize = (count, singular, plural = null) ->
 word.join = (words, last) ->
 	words = words.split /\s+/g if Array.isArray(words) is false
 	lingo.join words, last
+
+# Converts string to slug
+word.slug = (str) ->
+	slug(str)
 
 # Exporting version number.
 module.exports.version = package.version;
