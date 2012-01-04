@@ -24,6 +24,7 @@ Word contains functions that assist in working with strings.
 - join
 - capitalize
 - camel-case
+- slug
 
 ## Synopsis
 
