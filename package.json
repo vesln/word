@@ -24,6 +24,6 @@
       "test": "cake test"
     , "pre-publish": "cake build"
   }
-  , "main": "index"
+  , "main": "./lib/word"
   , "engines": { "node": ">= 0.6.0 < 0.7.0" }
 }
