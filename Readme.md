@@ -87,7 +87,13 @@ app.helpers({ word: word });
 
 ## Tests
 
-	$ make test
+	$ npm install
+	$ cake test
+
+## Credits and Acknowledgments
+
+Special thanks to indexzero (https://github.com/indexzero) for the following advice https://github.com/vesln/word/issues/1.
+Now you don't have to install coffee-script as a dep in order to use the library.
 
 ## License
 
