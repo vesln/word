@@ -6,7 +6,6 @@
   , "author": "Veselin Todorov <hi@vesln.com>"
   , "dependencies": {
 	  "package": "1.0.0"
-	, "coffee-script": "1.2.0"
 	, "lingo": "0.0.4"
 	, "super": "0.0.1"
 	, "slug": "0.1.1"
@@ -14,6 +13,7 @@
   , "devDependencies": {
       "mocha": "0.3.3"
     , "should": "0.3.2"
+    , "coffee-script": "1.2.0"
   }
   , "repository" : {
       "type" : "git",
@@ -21,7 +21,8 @@
   }
   , "homepage": "http://github.com/vesln/word"
   , "scripts": {
-      "test": "make test"
+      "test": "cake test"
+    , "pre-publish": "cake build"
   }
   , "main": "index"
   , "engines": { "node": ">= 0.6.0 < 0.7.0" }
