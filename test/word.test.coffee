@@ -3,7 +3,7 @@
 # Author: Veselin Todorov <hi@vesln.com>
 # Licensed under the MIT License.
 
-word = require '../'
+word = require '../src/word'
 
 describe 'word', ->
   it 'should have version', ->
