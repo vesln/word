@@ -22,7 +22,7 @@
   , "homepage": "http://github.com/vesln/word"
   , "scripts": {
       "test": "cake test"
-    , "pre-publish": "cake build"
+    , "prepublish": "cake build"
   }
   , "main": "./lib/word"
   , "engines": { "node": ">= 0.6.0 < 0.7.0" }
