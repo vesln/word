@@ -1,6 +1,5 @@
 tmp/
 node_modules/
-lib/
 *._
 *.tmp
 .monitor
