@@ -100,8 +100,7 @@ word.join = (words, last) ->
 	lingo.join words, last
 
 # Converts string to slug
-word.slug = (str) ->
-	slug(str)
+word.slug = slug
 
 # Exporting version number.
 module.exports.version = package.version;
