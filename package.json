@@ -23,6 +23,7 @@
   , "scripts": {
       "test": "cake test"
     , "prepublish": "cake build"
+    , "postpublish": "cake clean"
   }
   , "main": "./lib/word"
   , "engines": { "node": ">= 0.6.0 < 0.7.0" }
