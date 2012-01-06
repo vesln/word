@@ -1,4 +1,12 @@
 
+0.2.2 / 2012-01-06 
+==================
+
+  * Updating the slug proxy
+  * Adding postpublish script
+  * Adding clean task
+  * pre-publish is actually prepublish
+
 0.2.1 / 2012-01-05 
 ==================
 
