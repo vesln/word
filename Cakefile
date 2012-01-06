@@ -7,6 +7,9 @@ task 'build', ->
 task 'test', ->
   run './node_modules/.bin/mocha ./test/*.test.coffee --require should --reporter spec'
 
+task 'clean', ->
+  run 'rm -fr ./lib'
+
 run = (args...) ->
   for a in args
     switch typeof a
