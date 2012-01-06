@@ -1,6 +1,6 @@
 {
     "name": "word"
-  , "version": "0.2.1"
+  , "version": "0.2.2"
   , "description": "Contains functions that assist in working with strings."
   , "keywords": ["string helper", "text helper", "string", "text"]
   , "author": "Veselin Todorov <hi@vesln.com>"
