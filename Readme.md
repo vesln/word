@@ -1,10 +1,8 @@
 [![Build Status](https://secure.travis-ci.org/vesln/word.png)](http://travis-ci.org/vesln/word)
 
 # word - Text this.
-                           __ 
-.--.--.--..-----..----..--|  |
-|  |  |  ||  _  ||   _||  _  |
-|________||_____||__|  |_____|
+
+![screenshot](http://img545.imageshack.us/img545/3503/wordlogo.png)
                               
 
 http://github.com/vesln/word
