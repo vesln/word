@@ -1,4 +1,10 @@
 
+n.n.n / 2012-01-14 
+==================
+
+  * Removing package dep.
+  * Image instead of ascii
+
 0.2.2 / 2012-01-06 
 ==================
 
