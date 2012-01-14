@@ -103,4 +103,4 @@ word.join = (words, last) ->
 word.slug = slug
 
 # Exporting version number.
-module.exports.version = package.version;
+module.exports.version = require('../package.json').version;
