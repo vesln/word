@@ -1,5 +1,10 @@
 
-n.n.n / 2012-01-14 
+0.2.4 / 2012-01-22 
+==================
+
+  * Fixing a bug where the package module is invoked.
+
+0.2.3 / 2012-01-14 
 ==================
 
   * Removing package dep.
