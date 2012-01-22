@@ -4,7 +4,6 @@
 # Licensed under the MIT License.
 
 # Dependencies.
-package = require('package')(module)
 lingo = require 'lingo'
 extend = require 'super'
 slug = require 'slug'
