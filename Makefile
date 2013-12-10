@@ -2,7 +2,7 @@ clean:
 	@rm -rf ./lib/
 
 test:
-	@./node_modules/.bin/mocha test/*.coffee --require should --compilers coffee:coffee-script
+	@./node_modules/.bin/hydro
 
 build:
 	@./node_modules/.bin/coffee -o lib -c src/*.coffee
