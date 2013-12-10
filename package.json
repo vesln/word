@@ -15,10 +15,10 @@
     "slug": "0.2.2"
   },
   "devDependencies": {
-    "should": "*",
     "coffee-script": "*",
     "hydro": "~0.7.0",
-    "hydro-simple": "~1.0.3"
+    "hydro-simple": "~1.0.3",
+    "chai": "~1.8.1"
   },
   "repository": {
     "type": "git",

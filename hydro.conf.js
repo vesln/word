@@ -1,5 +1,8 @@
 require('coffee-script');
-require('should');
+
+var chai = require('chai');
+
+chai.should();
 
 /**
  * Test config.
