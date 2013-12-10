@@ -25,9 +25,9 @@
   },
   "homepage": "http://github.com/vesln/word",
   "scripts": {
-    "test": "cake test",
-    "prepublish": "cake build",
-    "postpublish": "cake clean"
+    "test": "make test",
+    "prepublish": "make build",
+    "postpublish": "make clean"
   },
   "main": "./lib/word"
 }
