@@ -10,8 +10,8 @@
   ],
   "author": "Veselin Todorov <hi@vesln.com>",
   "dependencies": {
-    "lingo": "0.0.4",
-    "super": "0.0.1",
+    "lingo": "0.0.5",
+    "super": "*",
     "slug": "0.2.2"
   },
   "devDependencies": {

@@ -1,11 +1,11 @@
 # Dependencies.
 lingo = require 'lingo'
-extend = require 'super'
+extend = require('super').merge
 slug = require 'slug'
 en = lingo.en
 
 # The main namespace
-module.exports = word = extend {}, lingo
+module.exports = word = extend [{}, lingo]
 
 # Strips slashes from a string.
 word.stripSlashes = (str) ->
