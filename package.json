@@ -1,29 +1,33 @@
 {
-    "name": "word"
-  , "version": "0.2.4"
-  , "description": "Contains functions that assist in working with strings."
-  , "keywords": ["string helper", "text helper", "string", "text"]
-  , "author": "Veselin Todorov <hi@vesln.com>"
-  , "dependencies": {
-      "lingo": "0.0.4"
-	  , "super": "0.0.1"
-	  , "slug": "0.2.2"
-  }
-  , "devDependencies": {
-      "mocha": "0.3.3"
-    , "should": "0.3.2"
-    , "coffee-script": "1.2.0"
-  }
-  , "repository" : {
-      "type" : "git",
-      "url" : "http://github.com/vesln/word.git"
-  }
-  , "homepage": "http://github.com/vesln/word"
-  , "scripts": {
-      "test": "cake test"
-    , "prepublish": "cake build"
-    , "postpublish": "cake clean"
-  }
-  , "main": "./lib/word"
-  , "engines": { "node": ">= 0.6.0 < 0.7.0" }
+  "name": "word",
+  "version": "0.2.4",
+  "description": "Contains functions that assist in working with strings.",
+  "keywords": [
+    "string helper",
+    "text helper",
+    "string",
+    "text"
+  ],
+  "author": "Veselin Todorov <hi@vesln.com>",
+  "dependencies": {
+    "lingo": "0.0.4",
+    "super": "0.0.1",
+    "slug": "0.2.2"
+  },
+  "devDependencies": {
+    "mocha": " *",
+    "should": "*",
+    "coffee-script": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vesln/word.git"
+  },
+  "homepage": "http://github.com/vesln/word",
+  "scripts": {
+    "test": "cake test",
+    "prepublish": "cake build",
+    "postpublish": "cake clean"
+  },
+  "main": "./lib/word"
 }
