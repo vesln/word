@@ -16,9 +16,12 @@
   },
   "devDependencies": {
     "coffee-script": "*",
-    "hydro": "~0.7.0",
+    "hydro": "~0.x.x",
     "hydro-simple": "~1.0.3",
-    "chai": "~1.8.1"
+    "chai": "~1.8.1",
+    "hydro-bdd": "0.x.x",
+    "hydro-chai": "0.0.2",
+    "hydro-coffee": "0.0.1"
   },
   "repository": {
     "type": "git",

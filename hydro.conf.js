@@ -1,9 +1,3 @@
-require('coffee-script');
-
-var chai = require('chai');
-
-chai.should();
-
 /**
  * Test config.
  *
@@ -15,12 +9,14 @@ module.exports = function(hydro) {
   hydro.set({
     attach: global,
     formatter: 'hydro-simple',
+    plugins: ['hydro-bdd', 'hydro-chai', 'hydro-coffee'],
+    chai: {
+      styles: 'should',
+      diff: true,
+      stack: true
+    },
     tests: [
       'test/*.coffee',
-    ],
-    proxies: {
-      describe: 'addSuite',
-      it: 'addTest',
-    }
+    ]
   });
 };

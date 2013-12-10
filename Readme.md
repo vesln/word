@@ -3,12 +3,11 @@
 # word - Text this.
 
 ![screenshot](http://img545.imageshack.us/img545/3503/wordlogo.png)
-                              
 
 http://github.com/vesln/word
 
 ## Description
-	
+
 Word contains functions that assist in working with strings.
 
 ## Features
@@ -86,12 +85,12 @@ app.helpers({ word: word });
 
 ## Install
 
-	$ npm install word
+$ npm install word
 
 ## Tests
 
-	$ npm install
-	$ cake test
+$ npm install
+$ cake test
 
 ## Credits and Acknowledgments
 
@@ -102,7 +101,7 @@ Now you don't have to install coffee-script as a dep in order to use the library
 
 MIT License
 
-Copyright (C) 2012 Veselin Todorov
+Copyright (C) 2012-2013 Veselin Todorov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
