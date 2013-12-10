@@ -78,11 +78,6 @@ app.helpers({ word: word });
 
 ```
 
-## Requirements
-
-- NPM (http://npmjs.org/)
-- Node.js 0.6 (http://nodejs.org/)
-
 ## Install
 
 $ npm install word
